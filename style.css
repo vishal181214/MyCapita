@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation{
+	display: flex;
+
+}
+.logo{
+	padding: 14px 16px;
+	font-size: 50px;
+}
+
+
+ul{
+	list-style-type: none;
+	margin-top:10px;
+	padding: 0;
+	overflow: hidden;
+	margin-left: 600px;
+	border-radius:0;
+}
+
+ li{
+	float: left;
+	width: 80px;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li:hover{
+	background-color: white;
+	border:2px solid black;
+	float: left;
+	width: 80px;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 40px;
+}
+#hov{
+	width:30%;
+	height: 20vh;
+	/* background-color: ; */
+	margin-left: 890px;
+	display: none;
+}
+.hmain:hover #hov{
+	display: block;
+
+}
+#hov input{
+	padding: 10px;
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 100px;
+}
+.tmar{
+	margin-top: 25px;
+}
+button{
+	padding: 8px;
+	width:100px;
+	margin-top: 10px;
+	margin-left: 100px;
+	background:transparent;
+	border-radius: 50px;
+}
+button:hover{
+	padding: 8px;
+	width:100px;
+	margin-top: 10px;
+	margin-left: 100px;
+	background:purple;
+	border-radius: 50px;
+}
+.main{
+	margin-left: 150px;
+}
+
+.main img{
+	height: 50vh;
+	border-radius: 50%;
+}
+.mycontleft{
+	width: 100%;
+	display: flex;
+}
+.image{
+	width: 40%;
+	align-content: center;
+}
+.image2{
+	margin-left: 40px;
+}
+.text{
+	width: 40%;
+	margin-left: 40px; 
+	text-align: center;
+	font-size: 20px;
+	margin-top: 80px;
+}
